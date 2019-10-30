@@ -1,0 +1,285 @@
+.loginBox .loginBj {
+  background-color: #c0281b;
+  height: 375px;
+  width: 100%;
+  min-width: 1200px;
+}
+.loginBox .login {
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  top: 175px;
+  width: 700px;
+  height: 350px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(238, 231, 231, 1);
+  box-sizing: border-box;
+  padding: 60px 70px 0 60px;
+}
+.loginBox .logo {
+  width: 393px;
+  height: 40px;
+  position: absolute;
+  top: -70px;
+  left: 0;
+}
+.loginBox .logo img {
+  width: 393px;
+  height: auto;
+}
+.loginBox .box01 {
+  display: flex;
+}
+.loginBox .box01 .le {
+  border-right: #d0d0d0 dotted 1px;
+  width: 354px;
+}
+.loginBox .box01 .ri {
+  width: 217px;
+}
+.loginBox .box01 .tab {
+  display: flex;
+  width: 80%;
+}
+.loginBox .box01 .tab > div {
+  flex: 1;
+  font-size: 16px;
+  line-height: 44px;
+  border-bottom: #ededed solid 1px;
+  text-align: center;
+}
+.loginBox .box01 .tab .focu {
+  position: relative;
+  color: #c0281b;
+  border-bottom: #c0281b solid 1px;
+}
+.loginBox .box01 .tab .focu::after {
+  content: "";
+  position: absolute;
+  background: url(../images/login/icon04.png) no-repeat center center;
+  width: 18px;
+  height: 8px;
+  left: 50%;
+  margin-left: -9px;
+  top: 37px;
+}
+.loginBox .box01 .inputBox .input {
+  border: none 0;
+  border-bottom: #ededed solid 1px;
+  width: 80%;
+  box-sizing: border-box;
+  height: 44px;
+  padding-left: 10px;
+}
+.loginBox .box01 .inputBox .code .input {
+  width: 50%;
+}
+.loginBox .box01 .inputBox .code .codeBut {
+  width: 30%;
+  height: 42px;
+  border: none 0;
+  font-size: 14px;
+  border-bottom: #ededed solid 1px;
+  color: #c0281b;
+}
+
+.loginBox .box01 .inputBox .text {
+  width: 80%;
+  color: #1f79e7;
+  text-align: right;
+  display: block;
+  line-height: 40px;
+  cursor: pointer;
+}
+.loginBox .box01 .inputBox .button {
+  border: none 0;
+  width: 80%;
+  box-sizing: border-box;
+  height: 44px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #c0281b;
+  font-size: 16px;
+  border-radius: 22px;
+}
+.loginBox .box01 .inputBox .button:hover {
+  background-color: #aa2013;
+}
+.loginBox .box01 .ri {
+  padding-left: 60px;
+}
+.loginBox .box01 .ri li {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 100%;
+}
+.loginBox .box01 .ri li:nth-child(1) {
+  padding-top: 45px;
+}
+.loginBox .box01 .ri li:nth-child(2) {
+  cursor: pointer;
+  margin: 18px 0 45px 0;
+  line-height: 120%;
+  position: relative;
+  color: #c0281b;
+  background: url(../images/login/icon05.png) no-repeat 72px center;
+}
+.loginBox .box01 .ri .icon {
+  display: flex;
+  margin-top: 20px;
+}
+.loginBox .box01 .ri .icon span {
+  display: block;
+  width: 33px;
+  height: 30px;
+  margin-right: 30px;
+}
+.loginBox .box01 .ri .icon .icon01 {
+  background: url(../images/login/icon01.png) center center no-repeat;
+}
+.loginBox .box01 .ri .icon .icon02 {
+  background: url(../images/login/icon02.png) center center no-repeat;
+}
+.loginBox .box01 .ri .icon .icon03 {
+  background: url(../images/login/icon03.png) center center no-repeat;
+}
+.loginBox .box01 .ri .icon .icon01:hover {
+  background: url(../images/login/icon01_f.png) center center no-repeat;
+}
+.loginBox .box01 .ri .icon .icon02:hover {
+  background: url(../images/login/icon02_f.png) center center no-repeat;
+}
+.loginBox .box01 .ri .icon .icon03:hover {
+  background: url(../images/login/icon03_f.png) center center no-repeat;
+}
+
+.passBoss .passbj {
+  background-color: #c0281b;
+  height: 375px;
+  width: 100%;
+  min-width: 1200px;
+}
+.passBoss .pass {
+  position: absolute;
+  left: 50%;
+  margin-left: -210px;
+  top: 175px;
+  width: 420px;
+  height: 427px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(238, 231, 231, 1);
+  box-sizing: border-box;
+  padding: 95px 60px 0 60px;
+}
+
+.passBoss .logo {
+  width: 393px;
+  height: 40px;
+  position: absolute;
+  top: -70px;
+  left: 0;
+}
+.passBoss .logo img {
+  width: 393px;
+  height: auto;
+}
+.passBoss .box01 .link {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.passBoss .box01 .link a {
+  padding-right: 28px;
+  color: #c0281b;
+  display: block;
+  background: url(../images/login/icon05.png) no-repeat right center;
+}
+.passBoss .box01 .ul {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.passBoss .box01 .ul li {
+  width: 100px;
+  text-align: center;
+}
+.passBoss .box01 .ul li span,
+.passBoss .box01 .ul li em {
+  display: block;
+  color: #ababab;
+}
+.passBoss .box01 .ul li span {
+  font-size: 32px;
+}
+.passBoss .box01 .ul li em {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.passBoss .box01 .ul li:nth-child(1) span {
+  color: #c0281b;
+}
+.passBoss .box01 .ul li:nth-child(1) em {
+  color: #333333;
+}
+.passBoss .box01 .ul li:nth-child(2) {
+  width: 64px;
+}
+.passBoss .box01 .ul .line {
+  width: 100px;
+  height: 2px;
+  background-color: #e1e1e1;
+  position: absolute;
+  left: 114px;
+  top: 34px;
+}
+
+.passBoss .box01 .inputBox {
+  margin-top: 40px;
+}
+.passBoss .box01 .inputBox .input {
+  border: none 0;
+  border-bottom: #ededed solid 1px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 44px;
+  padding-left: 10px;
+}
+.passBoss .box01 .inputBox .code .input {
+  width: 70%;
+}
+.passBoss .box01 .inputBox .code .codeBut {
+  width: 30%;
+  height: 42px;
+  font-size: 14px;
+  border: none 0;
+  border-bottom: #ededed solid 1px;
+  color: #c0281b;
+}
+
+.passBoss .box01 .inputBox .text {
+  width: 100%;
+  color: #1f79e7;
+  text-align: right;
+  display: block;
+  line-height: 40px;
+  cursor: pointer;
+}
+.passBoss .box01 .inputBox .button {
+  border: none 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 44px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #c0281b;
+  font-size: 16px;
+  border-radius: 22px;
+}
+.passBoss .box01 .inputBox .button:hover {
+  background-color: #aa2013;
+}
+
+.registerBox .login{
+  height: 427px;
+}

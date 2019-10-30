@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/heads.css" />
+    <link rel="stylesheet" href="./assets/css/exhibition.css" />
+    <script type="text/javascript"
+        src="http://api.map.baidu.com/api?v=2.0&ak=92F24dq9l2AgKwphMdinsg8jGyQYCT64"></script>
+    <title>exhibition-展会详情</title>
+</head>
+
+<body>
+    <header class="headerBox">
+        <div class="hMain">
+            <div class="hLe">欢迎访问深圳电子信息</div>
+            <div class="hRi">
+                <a href="#">公众号</a>| <a href="#">网站导航</a>|
+                <a href="#">登录</a>|
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </header>
+    <div class="logoBox">
+        <div class="logo">
+            <img src="./assets/images/home/logo.png" alt="logo" />
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <div class="le">
+                    <div class="name">搜资讯</div>
+                    <ul class="sel">
+                        <li onclick="dropDown(this)">搜资讯</li>
+                        <li onclick="dropDown(this)">搜新闻</li>
+                        <li onclick="dropDown(this)">搜任务</li>
+                        <li onclick="dropDown(this)">搜快报</li>
+                    </ul>
+                </div>
+                <input class="int" type="text">
+                <div class="btn"></div>
+            </div>
+            <div class="searchNav">
+                <p>热搜：</p>
+                <a href="#">展会</a>| <a href="#">补贴</a>| <a href="#">智能制造</a>|
+                <a href="#">活动讲座</a>| <a href="#">集成电路</a>|
+                <a href="#">商标</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navBox">
+        <ul class="itembox">
+            <li class="item">
+                <a href="#">首页</a>
+            </li>
+            <li class="item">
+                <a href="#">资讯</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">资讯动态</a>
+
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">政策</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">政策</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">政策文章列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">辅导申请</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item itemFocu">
+                <a href="#">活动</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">展会</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">展会</a></div>
+                            <div class="smalItem"><a href="#">展会详情</a></div>
+                            <div class="smalItem"><a href="#">展会在线报名</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">培训</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">培训</a></div>
+                            <div class="smalItem"><a href="#">培训详情</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">招商</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">物业列表</a></div>
+                            <div class="smalItem"><a href="#">物业招商详情页</a></div>
+                            <div class="smalItem"><a href="#">开发区列表</a></div>
+                            <div class="smalItem"><a href="#">开发区招商详情页</a></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">服务大厅</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">服务商</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品新</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品单页</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">商会之窗</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">商会概况</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会章程</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会架构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">联系我们</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">加入商会</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员续费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">支付会费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构专页</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="publicNav">
+        <ul class="cen">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">活动</a></li>
+            <li><a href="#">展会详情</a></li>
+        </ul>
+    </div>
+    <div class="bannerBox">
+        <div class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./assets/images/activity/banner.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/activity/banner.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/activity/banner.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="box02">
+            <div class="box02le">
+                <div class="box06">
+                    <div class="swiper-container gallery-top">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner2.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner2.jpg)"></div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner2.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner.jpg)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./assets/images/exhibition/banner2.jpg)"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box07">
+                    <div class="title">
+                        <div class="le">展会信息</div>
+                        <div class="ri">更多>></div>
+                    </div>
+                </div>
+                <div class="box08">
+                    <table class="tab">
+                        <tr>
+                            <td>展会日期</td>
+                            <td>2019-10-13</td>
+                        </tr>
+                        <tr>
+                            <td>展出城市</td>
+                            <td>展出城市展出城市展出城市展出城市展出城市展出城市展出城市展出城市展出城市展出城市</td>
+                        </tr>
+                        <tr>
+                            <td>展出地址</td>
+                            <td>展出地址展出地址展出地址展出地址展出地址展出地址展出地址</td>
+                        </tr>
+                        <tr>
+                            <td>展馆名称</td>
+                            <td>展馆名称展馆名称展馆名称展馆名称展馆名称展馆名称展馆名称</td>
+                        </tr>
+                        <tr>
+                            <td>主办单位</td>
+                            <td>主办单位主办单位主办单位主办单位主办单位主办单位主办单位</td>
+                        </tr>
+                        <tr>
+                            <td>承办单位</td>
+                            <td>承办单位承办单位承办单位承办单位承办单位承办单位承办单位</td>
+                        </tr>
+                        <tr>
+                            <td>发布日期</td>
+                            <td>发布日期发布日期发布日期发布日期发布日期发布日期发布日期</td>
+                        </tr>
+                        <tr>
+                            <td>浏览次数</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="btnBox">
+                                    <button class="btn01">收藏</button>
+                                    <button class="btn02">报名</button>
+                                    </divc>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="box07">
+                    <div class="title">
+                        <div class="le">展会说明</div>
+                        <div class="ri">更多>></div>
+                    </div>
+                </div>
+                <div class="box09">
+
+                    <p>各有关单位：</p>
+
+                    <span>为实施市场多元化战略，帮助我会会员企业进一步拓展新兴市场，2019年我们继续努力为大家打造优秀的外贸拓展平台。继2014年以来已经连续五年组团参加中国（阿联酋）贸易博览会。在商会的努力争取下，2019年第十届中国（阿联酋）贸易博览会得到了深圳市商务局的大力支持，已列入《2019年深圳市境外展览重点支持项目计划》，符合条件的企业可享受展位费补贴。</span>
+
+                    <p>一、展会和市场概况</p>
+
+                    <span>该展会自2010年开始至今已经成功举办了9届。2017年展出面积44000平米，展位数量2200个，参展商数量1050家（2017年展位费100%补贴资金已经发放到参展企业）；2018年展出面积48000平方米，
+                        1200家企业，近2400席展位，其中，商会组织了42家深圳地区的企业参展，共72个标准展位，参展总面积648平方米（均可享受展位费100%补贴）；</span>
+
+                    <span>迪拜是整个中东的金融经济中心，它以其自由宽松的经济政策，得天独厚的地理位置，完善齐备的基础设施，成为中东地区最重要的交通枢纽和最大的贸易中心。其“中心”作用通过直接影响海湾六国、西亚七国、非洲及欧洲南部国家的终端市场，辐射全世界的20亿人口。迪拜的买家主要有三类：
+                        来自沙特、科威特、巴林、叙利亚、黎巴嫩等当地的中东阿拉伯国家，占迪拜市场总进口量的55%～65%；
+                        来自印度，巴基斯坦，孟加拉等国家商人，他们的业务进口量占迪拜市场总进口量的25%～30%左右；
+                        来自非洲的商人，迪拜75%的货物转口到这些商人的国家。阿联酋鼓励贸易政策，给予进口商品较低的关税甚至零关税。并且拥有非常发达的零售和批发渠道，商品从进口到分销各个环节形成了完善的产业链。阿联酋的仓储配套设施在全球首屈一指，这些都为自由贸易提供了良好的环境。</span>
+
+                    <span>中国（阿联酋）贸易博览会是Swift International Exhibition Organizing
+                        FZ-LLC联合浙江米奥兰特商务会展股份有限公司（股票代码：米奥会展831822）举办的中国商品贸易博览会，是其全球系列（HOMELIFE）展之一，是UFI认证优质展览项目。展会期间都会配备新品发布会、买家配对会、网络买家一对一配对等等，经过多年的发展，展会已经成为迪拜展览规模最大的展览项目，成为中国商品开拓亚非市场的重要窗口。</span>
+
+                    <span>现将组团参展相关事宜通知如下：</span>
+
+                    <p>二、展会详细信息</p>
+
+                    <span>（一）名称：2019第十届中国（阿联酋）贸易博览会</span>
+
+                    <span>10th China ( UAE) Trade Expo</span>
+
+                    <span>（二）地点：迪拜世贸中心</span>
+
+                    <span>（三）时间：2019.12.15-12.17</span>
+
+                    <span>（四）展出内容</span>
+
+                    <span>◆ 【消费电子】：智能家居、智能穿戴设备、无人机、平衡车、智能手机、平板电脑、移动互联、苹果周边及电子零配件、家庭影院，电子游戏等；</span>
+                    <span>◆ 【家用电器】：加湿器、咖啡机、榨汁机、水壶、电扇、食物处理器、吹风机、蒸汽吸尘器、制冰机、真空除尘器、滤水器、热水器等。</span>
+                    <span>◆ 【室内照明】：家庭照明、吸顶灯、现代照明、LED球泡灯、LED日光灯管、水晶灯、欧式照明、吊灯等等。</span>
+
+                    <p>三、相关费用：</p>
+
+                    <span>（一）展位费： 35800元人民币/9 平米（含基本装修及基本配置、会刊登录宣传费用等）拐角摊位加收摊位费的10%；</span>
+                    <span>（二）人员费：18800元/人(含机票、酒店、餐饮、交通等)；</span>
+                    <span>（三）报名组织费: 3000元人民币 /公司；</span>
+                    <span>（四）展品运费、关税及特殊道具费按实际发生费用计算。</span>
+                </div>
+                <div id="allmap" class="box10"></div>
+            </div>
+            <div class="box02ri">
+                <div class="box05 mart0">
+                    <div class="title">
+                        <div class="name">展会主办方信息</div>
+                    </div>
+                    <div class="dos">
+                        <div class="hydt">
+                            <p>主办单位</p>
+                            <a class="link" href="#">中国塑料加工工业协会</a>
+                            <a class="link" href="#">吉林省塑料研究院</a>
+                            <a class="link" href="#">包装工业协会</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">其他展会</div>
+                    </div>
+                    <div class="dos">
+                        <div class="hydt">
+                            <span>联系负责人：联系负责人</span>
+                            <span>地址：深圳</span>
+                            <span>手机：18888888888</span>
+                            <span>电话：088-9999999</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">其他展会</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fotterBox">
+        <div class="main">
+            <div class="t">
+                <div class="le"><img src="./assets/images/home/bj15.png" alt="" srcset=""></div>
+                <div class="r">
+                    <a href="#">商会概括</a>
+                    <a href="#">商会架构</a>
+                    <a href="#">商会章程</a>
+                    <a href="#">商会动态</a>
+                    <a href="#">通知公告</a>
+                    <a href="#">分支机构</a>
+                    <a href="#">会员列表</a>
+                    <a href="#">加入商会</a>
+                    <a href="#">联系我们</a>
+
+                </div>
+            </div>
+            <div class="b">
+                <dl class="dl">
+                    <dt class="dt"><a href="#">在线服务</a></dt>
+                    <dd class="dd"><a href="#">辅导申请</a></dd>
+                    <dd class="dd"><a href="#">展会</a></dd>
+                    <dd class="dd"><a href="#">培训</a></dd>
+                    <dd class="dd"><a href="#">招商</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">专业委员会</a></dt>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">活动</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">出版物</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><img src="./assets/images/home/bj17.png" alt="" srcset=""></dt>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/select.js"></script>
+
+    <script type="text/javascript">
+        // // 百度地图API功能
+        var map = new BMap.Map("allmap");    // 创建Map实例
+        map.centerAndZoom(new BMap.Point(114.093943, 22.548037), 17);  // 初始化地图,设置中心点坐标和地图级别
+        //添加地图类型控件
+        map.addControl(new BMap.MapTypeControl({
+            mapTypes: [
+                BMAP_NORMAL_MAP,
+                BMAP_HYBRID_MAP
+            ]
+        }));
+        map.setCurrentCity("深圳");          // 设置地图显示的城市 此项是必须设置的
+        map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    </script>
+    <script>
+        var banner = new Swiper('.banner', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+        });
+        // 小图
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 4, // 设置slider容器能够同时显示的slides数量
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            direction: 'vertical',
+        });
+        // 大图
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10, // slide之间的距离
+            slidesPerView: 1,
+            direction: 'vertical',
+            thumbs: {
+                swiper: galleryThumbs,
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>

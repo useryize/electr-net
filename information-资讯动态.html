@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/heads.css" />
+    <link rel="stylesheet" href="./assets/css/information.css" />
+    <title>information-资讯动态</title>
+</head>
+
+<body>
+    <header class="headerBox">
+        <div class="hMain">
+            <div class="hLe">欢迎访问深圳电子信息</div>
+            <div class="hRi">
+                <a href="#">公众号</a>| <a href="#">网站导航</a>|
+                <a href="#">登录</a>|
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </header>
+    <div class="logoBox">
+        <div class="logo">
+            <img src="./assets/images/home/logo.png" alt="logo" />
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <div class="le">
+                    <div class="name">搜资讯</div>
+                    <ul class="sel">
+                        <li onclick="dropDown(this)">搜资讯</li>
+                        <li onclick="dropDown(this)">搜新闻</li>
+                        <li onclick="dropDown(this)">搜任务</li>
+                        <li onclick="dropDown(this)">搜快报</li>
+                    </ul>
+                </div>
+                <input class="int" type="text">
+                <div class="btn"></div>
+            </div>
+            <div class="searchNav">
+                <p>热搜：</p>
+                <a href="#">展会</a>| <a href="#">补贴</a>| <a href="#">智能制造</a>|
+                <a href="#">活动讲座</a>| <a href="#">集成电路</a>|
+                <a href="#">商标</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navBox">
+        <ul class="itembox">
+            <li class="item">
+                <a href="#">首页</a>
+            </li>
+            <li class="item itemFocu">
+                <a href="#">资讯</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">资讯动态</a>
+
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">政策</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">政策</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">政策文章列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">辅导申请</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">活动</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">展会</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">展会</a></div>
+                            <div class="smalItem"><a href="#">展会详情</a></div>
+                            <div class="smalItem"><a href="#">展会在线报名</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">培训</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">培训</a></div>
+                            <div class="smalItem"><a href="#">培训详情</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">招商</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">物业列表</a></div>
+                            <div class="smalItem"><a href="#">物业招商详情页</a></div>
+                            <div class="smalItem"><a href="#">开发区列表</a></div>
+                            <div class="smalItem"><a href="#">开发区招商详情页</a></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">服务大厅</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">服务商</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品新</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品单页</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">商会之窗</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">商会概况</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会章程</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会架构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">联系我们</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">加入商会</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员续费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">支付会费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构专页</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="publicNav">
+        <ul class="cen">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">资讯</a></li>
+            <li><a href="#">资讯动态</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="box01Box">
+            <div class="box01">
+                <img src="./assets/images/information/img01.jpg">
+                <div class="title"><a href="#">电子行业评选：蓝点奖</a>
+                </div>
+            </div>
+            <div class="dynamic">
+                <dl class="item">
+                    <dt>
+                        <p class="textflow">海关安检联合检查 广州白云机场旅客出境通关时间减半</p>
+                        <p class="textflow">广州海关下属广州白云机场海关旅检部门与广州白云机场安检部门26日签订协议。</p>
+                    </dt>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                    <dd><a href="#">满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月满洲里口岸前8月进出境中欧班列线路达53条满洲里口岸前8月</a><em>2019-09-28</em>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="box02">
+            <div class="box02le">
+                <ul class="box02Tab" id="tabBox">
+                    <li class="item focu"><a href="#">行业动态</a></li>
+                    <li class="item"><a href="#">企业动态</a></li>
+                    <li class="item"><a href="#">行业智库</a></li>
+                    <li class="item"><a href="#">企业动态</a></li>
+                    <li class="item"><a href="#">行业报告</a></li>
+                    <li class="item"><a href="#">商会动态</a></li>
+                    <li class="r_ri"><a href="#">我要投稿>></a></li>
+                </ul>
+                <div id="tabShow">
+                    <ul class="box03">
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="poster"><img src="./assets/images/information/img03.jpg"></li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img"><img src="./assets/images/information/img02.jpg"></div>
+                            <div class="text">
+                                <a href="#"
+                                    class="title">日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金日化巨头洛娃集团债券违约，法院一审判其审判其审判其给金信基信基金</a>
+                                <div class="dos">
+                                    秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网秋风萧瑟，债市违约主体的不断扩大以及兑付工作的缓慢进展也为市场带来丝丝凉意。近期中国裁判文书网
+                                    发布一则金信基金与洛娃科技实业</div>
+                                <div class="ico">
+                                    <span>海外网</span>
+                                    <span>2019-10-06</span>
+                                    <span>324</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="loadingBox">点击加载更多</div>
+            </div>
+            <div class="box02ri">
+                <div class="box04">
+                    <img src="./assets/images/information/img04.jpg">
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <a class="link" href="#">深圳产业</a>
+                        <a class="link" href="#">扶持补贴</a>
+                        <a class="link" href="#">出口</a>
+                        <a class="link" href="#">集成电路产业园</a>
+                        <a class="link" href="#">税务</a>
+                        <a class="link" href="#">粤港澳大湾区</a>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">热读文章</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">热读文章</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fotterBox">
+        <div class="main">
+            <div class="t">
+                <div class="le"><img src="./assets/images/home/bj15.png" alt="" srcset=""></div>
+                <div class="r">
+                    <a href="#">商会概括</a>
+                    <a href="#">商会架构</a>
+                    <a href="#">商会章程</a>
+                    <a href="#">商会动态</a>
+                    <a href="#">通知公告</a>
+                    <a href="#">分支机构</a>
+                    <a href="#">会员列表</a>
+                    <a href="#">加入商会</a>
+                    <a href="#">联系我们</a>
+
+                </div>
+            </div>
+            <div class="b">
+                <dl class="dl">
+                    <dt class="dt"><a href="#">在线服务</a></dt>
+                    <dd class="dd"><a href="#">辅导申请</a></dd>
+                    <dd class="dd"><a href="#">展会</a></dd>
+                    <dd class="dd"><a href="#">培训</a></dd>
+                    <dd class="dd"><a href="#">招商</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">专业委员会</a></dt>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">活动</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">出版物</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><img src="./assets/images/home/bj17.png" alt="" srcset=""></dt>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/select.js"></script>
+    <script>
+        var btn = document.getElementById('tabBox').getElementsByTagName('li');
+        var boxlist = document.getElementById('tabShow').getElementsByTagName('ul');
+        boxNavTabLen(btn, boxlist);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+.bannerBox {
+  width: 100%;
+  position: relative;
+  min-width: 1200px;
+}
+.bannerBox .banner {
+  height: 400px;
+}
+.bannerBox .swiper-slide {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bannerBox .swiper-pagination {
+  bottom: 20px !important;
+}
+.bannerBox .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: #ffffff solid 1px;
+  opacity: 1;
+  box-sizing: border-box;
+  background-color: transparent !important;
+}
+.bannerBox .swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+}
+.box01 .title {
+  height: 45px;
+  box-sizing: border-box;
+  border-bottom: #c0281b solid 2px;
+  position: relative;
+  margin-top: 30px;
+}
+.box01 .title .le {
+  line-height: 45px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  background: url(../images/activity/img01.png) no-repeat center center;
+}
+.box01 .title .ri {
+  height: 45px;
+  line-height: 45px;
+  color: #333333;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.box02 {
+  overflow: hidden;
+  clear: both;
+  margin-top: 20px;
+  height: 380px;
+}
+.box02 .le {
+  float: left;
+  width: 290px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+.box02 .le img {
+  width: 290px;
+  height: auto;
+}
+.box02 .ri {
+  float: right;
+  width: 896px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box02 .ri .dosBox {
+  margin-bottom: 11px;
+  width: 290px;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+}
+.box02 .ri .dosBox img {
+  width: 290px;
+  height: auto;
+}
+.box02 .dos {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: top 0.3s ease-out;
+}
+.box02 .dos .title {
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.box02 .dos .name {
+  color: #ffffff;
+  display: block;
+  padding: 0 15px;
+  text-align: justify;
+  overflow: hidden;
+}
+.box02 .le .dos {
+  height: 380px;
+  top: 340px;
+}
+.box02 .dos:hover {
+  top: 0 !important;
+}
+.box02 .le .dos .name {
+  height: 318px;
+}
+.box02 .dosBox .dos {
+  height: 185px;
+  top: 145px;
+}
+.box02 .dosBox .dos .name {
+  height: 138px;
+}
+
+.boxMain {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.boxMain .boxMainLe {
+  width: 987px;
+  float: left;
+}
+.box03 .item {
+  height: 200px;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: #ededed solid 1px;
+}
+.box03 .poster {
+  padding: 20px 0;
+  border-bottom: #ededed solid 1px;
+}
+.box03 .item:hover {
+  background-color: #f6f1f0;
+}
+.box03 .item .img {
+  width: 300px;
+  height: 200px;
+}
+.box03 .item .img img {
+  width: 300px;
+  height: auto;
+}
+.box03 .item .text {
+  width: 658px;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+}
+.box03 .item .title {
+  display: block;
+  font-size: 20px;
+  color: #3a3a3a;
+  margin: 8px 0 20px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box03 .item .title:hover {
+  color: #c0281b;
+}
+.box03 .item .dos {
+  font-size: 14px;
+  color: #666666;
+  height: 70px;
+  overflow: hidden;
+  line-height: 180%;
+  margin-bottom: 40px;
+}
+
+.box03 .item .ico {
+  display: flex;
+}
+.box03 .item .ico span {
+  font-size: 14px;
+  color: #757575;
+  padding-left: 24px;
+  line-height: 150%;
+  margin-right: 30px;
+}
+.box03 .item .ico span:nth-child(1) {
+  background: url(../images/information/icon01.png) no-repeat left center;
+}
+.box03 .item .ico span:nth-child(2) {
+  background: url(../images/information/icon02.png) no-repeat left center;
+}
+.box03 .item .ico span:nth-child(3) {
+  background: url(../images/information/icon03.png) no-repeat left center;
+  padding-left: 12px;
+}
+.boxMain .boxMainri {
+  float: right;
+  width: 182px;
+}
+
+.box05 {
+  width: 182px;
+  margin-top: 20px;
+}
+.box05 .title {
+  background-color: #c0281b;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+.box05 .title .name {
+  line-height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-left: #ffffff solid 2px;
+  padding-left: 10px;
+}
+
+.box05 .dos {
+  width: 182px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(219, 219, 219, 1);
+  overflow: hidden;
+  padding: 12px;
+}
+.box05 .dos a.link {
+  color: #333333;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.box05 .dos a.link:hover {
+  color: #c0281b;
+}
+.box05 .dos .pro {
+  margin-bottom: 10px;
+}
+.box05 .dos .sc li {
+  border-bottom: dotted #bababa 1px;
+}
+.box05 .dos .sc a {
+  display: block;
+  color: #2c2c2c;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 12px;
+}
+.box05 .dos .sc a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #a2a2a2;
+}
+.box05 .dos .sc a:hover {
+  color: #c0281b;
+}
+.box05 .dos .sc a:hover::after {
+  background-color: #c0281b;
+}
+.box05 .dos .sc a span {
+  display: block;
+  transition: right 0.3s ease-out;
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: 9px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffffff url(../images/exhibition/icon02.png) no-repeat center
+    center;
+}
+.box05 .dos .sc a:hover span {
+  right: 0;
+}

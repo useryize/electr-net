@@ -1,0 +1,398 @@
+/* 顶部  */
+.headerBox {
+  height: 32px;
+  width: 100%;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  min-width: 1200px;
+}
+.headerBox .hMain {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.headerBox .hMain .hLe,
+.headerBox .hMain .hRi {
+  height: 32px;
+  line-height: 32px;
+  color: #7d7d7d;
+  font-size: 14px;
+}
+.headerBox .hMain .hLe {
+  float: left;
+}
+.headerBox .hMain .hRi {
+  float: right;
+}
+
+.headerBox .hMain .hRi a {
+  color: #7d7d7d;
+  margin: 0 10px;
+}
+
+.headerBox .hMain .hRi a:hover {
+  color: #c0281b;
+}
+/* logo 搜索 */
+.logoBox {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logoBox .logo {
+  margin: 14px 0 18px 0;
+}
+.logoBox .searchBox {
+  padding: 20px 0 0 0;
+}
+.logoBox .search {
+  display: flex;
+}
+.logoBox .search .le {
+  position: relative;
+}
+
+.logoBox .search .le .name {
+  height: 40px;
+  background-color: #c0281b;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  padding: 0 40px 0 30px;
+}
+.logoBox .search .le .name::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 19px;
+  height: 10px;
+  background: url(../images/home/icon02_t.png) no-repeat center center;
+  background-size: 15px auto;
+}
+.logoBox .search .le .sel {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+  z-index: 3;
+}
+.logoBox .search .le:hover .sel {
+  display: block;
+}
+.logoBox .search .le .sel li {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.logoBox .search .le .sel li:hover {
+  background-color: #ffd1cd;
+  color: #c0281b;
+}
+.logoBox .search .int {
+  width: 370px;
+  height: 40px;
+  box-sizing: border-box;
+  border: #c0281b solid 1px;
+  padding: 0 10px;
+  color: #666666;
+}
+.logoBox .search .btn {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  background-color: #c0281b;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+.logoBox .search .btn:hover {
+  background: #ad0f0e;
+}
+.logoBox .search .btn::after {
+  position: absolute;
+  left: 19px;
+  top: 10px;
+  content: "";
+  width: 22px;
+  height: 20px;
+  background: url(../images/home/icon.png) no-repeat 0 -370px;
+}
+.logoBox .searchNav {
+  display: flex;
+}
+.logoBox .searchNav {
+  color: #444444;
+  margin: 10px 0 0 0;
+}
+.logoBox .searchNav a {
+  color: #444444;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.logoBox .searchNav a:hover {
+  color: #c0281b;
+}
+/* 主导航 */
+.navBox {
+  background-color: #c0281b;
+  min-width: 1200px;
+}
+.navBox .itembox {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #c0281b;
+  border-right: #d1827b solid 1px;
+}
+.navBox .itembox .item {
+  background-color: #c0281b;
+  position: relative;
+  flex: 1;
+  height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 50px;
+  border-left: #d1827b solid 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+  display: flex;
+}
+
+.navBox .itembox .item a {
+  flex: 1;
+  color: #ffffff;
+  text-align: center;
+}
+.navBox .itembox .item .text {
+  display: inline-block;
+  padding-left: 35px;
+}
+.navBox .itembox .item:nth-child(1) .text {
+  background: url(../images/home/nav_icon01.png) left 13px no-repeat;
+  padding-left: 30px;
+}
+.navBox .itembox .item:nth-child(2) .text {
+  background: url(../images/home/nav_icon02.png) left center no-repeat;
+}
+.navBox .itembox .item:nth-child(3) .text {
+  background: url(../images/home/nav_icon03.png) left 12px no-repeat;
+}
+.navBox .itembox .item:nth-child(4) .text {
+  background: url(../images/home/nav_icon04.png) left 13px no-repeat;
+}
+.navBox .itembox .item:nth-child(5) .text {
+  background: url(../images/home/nav_icon05.png) left center no-repeat;
+}
+.navBox .itembox .item:nth-child(6) .text {
+  background: url(../images/home/nav_icon07.png) left 12px no-repeat;
+}
+.navBox .itembox .item:nth-child(7) .text {
+  background: url(../images/home/nav_icon08.png) left center no-repeat;
+}
+.navBox .itembox .item:nth-child(8) .text {
+  background: url(../images/home/nav_icon06.png) left center no-repeat;
+}
+.navBox .itembox .item:hover,
+.navBox .itembox .itemFocu {
+  background-color: #ad0f0e;
+}
+/* .navBox .itembox .item::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/home/icon.png) no-repeat;
+} */
+/* .navBox .itembox .item:nth-child(1),
+.navBox .itembox .item:nth-child(2),
+.navBox .itembox .item:nth-child(3),
+.navBox .itembox .item:nth-child(4) {
+  text-indent: 101px;
+}
+.navBox .itembox .item:nth-child(5),
+.navBox .itembox .item:nth-child(6) {
+  text-indent: 85px;
+} */
+/* .navBox .itembox .item:nth-child(1)::after {
+  background-position: 0 0;
+  left: 69px;
+}
+.navBox .itembox .item:nth-child(2)::after {
+  background-position: 0 -36px;
+  left: 69px;
+}
+.navBox .itembox .item:nth-child(3)::after {
+  background-position: 0 -74px;
+  left: 69px;
+  top: 11px;
+}
+.navBox .itembox .item:nth-child(4)::after {
+  background-position: 0 -112px;
+  left: 69px;
+  top: 12px;
+}
+.navBox .itembox .item:nth-child(5)::after {
+  background-position: 0 -149px;
+  left: 53px;
+  top: 12px;
+}
+.navBox .itembox .item:nth-child(6)::after {
+  background-position: 0 -188px;
+  left: 53px;
+} */
+.navBox .itembox .item:hover .subBox {
+  display: block;
+}
+.navBox .subBox {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+}
+.navBox .subBox .subItem {
+  text-align: center;
+  text-indent: 0;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: flex;
+  border-bottom: #fff1f1 solid 1px;
+}
+.navBox .subBox .subItem a {
+  color: #333333;
+  flex: 1;
+}
+.navBox .subBox .subItem:hover {
+  background-color: #ffd1cd;
+}
+.navBox .subBox .subItem:hover > a {
+  color: #c0281b;
+}
+.navBox .subBox .subItem:hover .smallBox {
+  display: block;
+}
+.navBox .smallBox {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+}
+.navBox .smallBox .smalItem {
+  text-align: center;
+  text-indent: 0;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: flex;
+  border-bottom: #fff1f1 solid 1px;
+}
+.navBox .smallBox .smalItem a {
+  flex: 1;
+  color: #333333;
+}
+.navBox .smallBox .smalItem:hover {
+  background-color: #ffd1cd;
+}
+.navBox .smallBox .smalItem:hover > a {
+  color: #c0281b;
+}
+.fotterBox {
+  margin-top: 40px;
+  background: #ae3227 url(../images/home/bj16.png) no-repeat left bottom;
+}
+.fotterBox .t {
+  display: flex;
+}
+.fotterBox .t .le {
+  padding-right: 20px;
+  border-right: #ffffff solid 2px;
+}
+.fotterBox .t .le img {
+  width: 166px;
+  height: 41px;
+}
+.fotterBox .t .r {
+  height: 41px;
+}
+.fotterBox .t .r a {
+  height: 41px;
+  color: #ffffff;
+  line-height: 40px;
+  margin: 0 20px;
+}
+.fotterBox .t {
+  border-bottom: #ffffff solid 2px;
+  padding: 30px 0;
+  color: #ffffff;
+}
+.fotterBox .b {
+  display: flex;
+  padding: 30px 0 40px 0;
+  justify-content: space-between;
+}
+.fotterBox .b a {
+  color: #ffffff;
+  display: block;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fotterBox .b .dt {
+  margin-bottom: 30px;
+}
+.fotterBox .b .dd {
+  margin-bottom: 20px;
+}
+.fotterBox .b .dt a {
+  font-size: 16px;
+}
+.fotterBox .b .dd a {
+  font-size: 14px;
+}
+.publicNav {
+  width: 100%;
+  min-width: 1200px;
+}
+.publicNav .cen {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+.publicNav .cen li a {
+  display: block;
+  color: #c0281b;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 15px;
+  position: relative;
+}
+.publicNav .cen li a::after {
+  content: ">";
+  position: absolute;
+  right: -5px;
+  top: 0;
+  color: #666666;
+}
+.publicNav .cen li:last-child a {
+  color: #666666;
+}
+.publicNav .cen li:last-child a::after {
+  content: "";
+}

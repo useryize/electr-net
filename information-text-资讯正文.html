@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/heads.css" />
+    <link rel="stylesheet" href="./assets/css/information.css" />
+    <title>information-text-资讯正文</title>
+</head>
+
+<body>
+    <header class="headerBox">
+        <div class="hMain">
+            <div class="hLe">欢迎访问深圳电子信息</div>
+            <div class="hRi">
+                <a href="#">公众号</a>| <a href="#">网站导航</a>|
+                <a href="#">登录</a>|
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </header>
+    <div class="logoBox">
+        <div class="logo">
+            <img src="./assets/images/home/logo.png" alt="logo" />
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <div class="le">
+                    <div class="name">搜资讯</div>
+                    <ul class="sel">
+                        <li onclick="dropDown(this)">搜资讯</li>
+                        <li onclick="dropDown(this)">搜新闻</li>
+                        <li onclick="dropDown(this)">搜任务</li>
+                        <li onclick="dropDown(this)">搜快报</li>
+                    </ul>
+                </div>
+                <input class="int" type="text">
+                <div class="btn"></div>
+            </div>
+            <div class="searchNav">
+                <p>热搜：</p>
+                <a href="#">展会</a>| <a href="#">补贴</a>| <a href="#">智能制造</a>|
+                <a href="#">活动讲座</a>| <a href="#">集成电路</a>|
+                <a href="#">商标</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navBox">
+        <ul class="itembox">
+            <li class="item">
+                <a href="#">首页</a>
+            </li>
+            <li class="item itemFocu">
+                <a href="#">资讯</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">资讯动态</a>
+
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">政策</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">政策</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">政策文章列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">辅导申请</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">活动</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">展会</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">展会</a></div>
+                            <div class="smalItem"><a href="#">展会详情</a></div>
+                            <div class="smalItem"><a href="#">展会在线报名</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">培训</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">培训</a></div>
+                            <div class="smalItem"><a href="#">培训详情</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">招商</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">物业列表</a></div>
+                            <div class="smalItem"><a href="#">物业招商详情页</a></div>
+                            <div class="smalItem"><a href="#">开发区列表</a></div>
+                            <div class="smalItem"><a href="#">开发区招商详情页</a></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">服务大厅</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">服务商</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品新</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品单页</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">商会之窗</a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">商会概况</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会章程</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会架构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">联系我们</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">加入商会</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员续费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">支付会费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构专页</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="publicNav">
+        <ul class="cen">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">资讯</a></li>
+            <li><a href="#">资讯正文</a></li>
+        </ul>
+    </div>
+    <div class="bannerBox06" style="background-image: url(./assets/images/information/banner.jpg)"></div>
+    <div class="main">
+        <div class="box02">
+            <div class="box02le">
+                <div class="box07">
+                    <div class="title"><span>深圳电子网—重磅上线</span></div>
+                    <div class="ico">
+                        <div class="le">
+                            <span>2019/8/12</span>
+                            <span>来源：新浪科技</span>
+                        </div>
+                        <div class="ri">
+                            <span>324</span>
+                            <span>点击收藏</span>
+                            <span class="focu">已收藏</span>
+                        </div>
+                    </div>
+                    <div class="textmain">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic
+                        tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                        fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien
+                        nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                        sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                        rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo
+                        commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                        mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                        viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis
+                        tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.
+                        Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
+                        nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan
+                        eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                        Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic
+                        tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                        fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien
+                        nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                        sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                        rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo
+                        commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                        mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                        viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis
+                        tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.
+                        Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum,
+                        nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan
+                        eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                        Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic
+                        tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                        fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien
+                        nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                        sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                        rhoncus pronin
+                    </div>
+                    <div class="loadingBox">社会化分享按钮>></div>
+                </div>
+                <div class="box08">
+                    <div class="fom">
+                        <a>登入后，方可留言>></a>
+                    </div>
+                    <div class="tj">
+                        <textarea cols="30" rows="10" placeholder="请输入您的留言"></textarea>
+                        <button>提交留言</button>
+                    </div>
+                    <div class="box09">
+                        <div class="item">
+                            <div class="title">电子网有限公司</div>
+                            <div class="name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                parturient montes, nascetur ridiculus mus. Nam fermen
+                                tum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin
+                                sapien
+                                nunc accuan eget.</div>
+                            <div class="icon"><span>2019/8/23 16:33:19</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="title">电子网有限公司</div>
+                            <div class="name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                parturient montes, nascetur ridiculus mus. Nam fermen
+                                tum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin
+                                sapien
+                                nunc accuan eget.</div>
+                            <div class="icon"><span>2019/8/23 16:33:19</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="title">电子网有限公司</div>
+                            <div class="name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                parturient montes, nascetur ridiculus mus. Nam fermen
+                                tum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin
+                                sapien
+                                nunc accuan eget.</div>
+                            <div class="icon"><span>2019/8/23 16:33:19</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="title">电子网有限公司</div>
+                            <div class="name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                parturient montes, nascetur ridiculus mus. Nam fermen
+                                tum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin
+                                sapien
+                                nunc accuan eget.</div>
+                            <div class="icon"><span>2019/8/23 16:33:19</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box02ri">
+                <div class="box04">
+                    <img src="./assets/images/information/img04.jpg">
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <a class="link" href="#">深圳产业</a>
+                        <a class="link" href="#">扶持补贴</a>
+                        <a class="link" href="#">出口</a>
+                        <a class="link" href="#">集成电路产业园</a>
+                        <a class="link" href="#">税务</a>
+                        <a class="link" href="#">粤港澳大湾区</a>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">热读文章</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">热读文章</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+                <div class="box05">
+                    <div class="title">
+                        <div class="name">行业动态</div>
+                    </div>
+                    <div class="dos">
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                        <div class="pro"><img src="./assets/images/information/img05.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fotterBox">
+        <div class="main">
+            <div class="t">
+                <div class="le"><img src="./assets/images/home/bj15.png" alt="" srcset=""></div>
+                <div class="r">
+                    <a href="#">商会概括</a>
+                    <a href="#">商会架构</a>
+                    <a href="#">商会章程</a>
+                    <a href="#">商会动态</a>
+                    <a href="#">通知公告</a>
+                    <a href="#">分支机构</a>
+                    <a href="#">会员列表</a>
+                    <a href="#">加入商会</a>
+                    <a href="#">联系我们</a>
+
+                </div>
+            </div>
+            <div class="b">
+                <dl class="dl">
+                    <dt class="dt"><a href="#">在线服务</a></dt>
+                    <dd class="dd"><a href="#">辅导申请</a></dd>
+                    <dd class="dd"><a href="#">展会</a></dd>
+                    <dd class="dd"><a href="#">培训</a></dd>
+                    <dd class="dd"><a href="#">招商</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">专业委员会</a></dt>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">活动</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">出版物</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><img src="./assets/images/home/bj17.png" alt="" srcset=""></dt>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/select.js"></script>
+</body>
+
+</html>

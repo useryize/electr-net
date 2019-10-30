@@ -10,13 +10,245 @@
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/heads.css" />
     <link rel="stylesheet" href="./assets/css/exhibition.css" />
-    <script type="text/javascript"
-        src="http://api.map.baidu.com/api?v=2.0&ak=92F24dq9l2AgKwphMdinsg8jGyQYCT64"></script>
+    <!-- SUI库 -->
+    <!-- <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script> -->
+    <!-- layui库 -->
+    <link rel="stylesheet" href="./assets/layui/css/layui.css">
     <title>exhibitionSignUp-展会在线报名</title>
 </head>
 
 <body>
+    <header class="headerBox">
+        <div class="hMain">
+            <div class="hLe">欢迎访问深圳电子信息</div>
+            <div class="hRi">
+                <a href="#">公众号</a>| <a href="#">网站导航</a>|
+                <a href="#">登录</a>|
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </header>
+    <div class="logoBox">
+        <div class="logo">
+            <img src="./assets/images/home/logo.png" alt="logo" />
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <div class="le">
+                    <div class="name">搜资讯</div>
+                    <ul class="sel">
+                        <li onclick="dropDown(this)">搜资讯</li>
+                        <li onclick="dropDown(this)">搜新闻</li>
+                        <li onclick="dropDown(this)">搜任务</li>
+                        <li onclick="dropDown(this)">搜快报</li>
+                    </ul>
+                </div>
+                <input class="int" type="text">
+                <div class="btn"></div>
+            </div>
+            <div class="searchNav">
+                <p>热搜：</p>
+                <a href="#">展会</a>| <a href="#">补贴</a>| <a href="#">智能制造</a>|
+                <a href="#">活动讲座</a>| <a href="#">集成电路</a>|
+                <a href="#">商标</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navBox">
+        <ul class="itembox">
+            <li class="item">
+                <a href="#"><span class="text">首页</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">资讯</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">资讯动态</a>
 
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">政策</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">政策</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">政策文章列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">辅导申请</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item itemFocu">
+                <a href="#"><span class="text">活动</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">展会</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">展会</a></div>
+                            <div class="smalItem"><a href="#">展会详情</a></div>
+                            <div class="smalItem"><a href="#">展会在线报名</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">培训</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">培训</a></div>
+                            <div class="smalItem"><a href="#">培训详情</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">招商</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">物业列表</a></div>
+                            <div class="smalItem"><a href="#">物业招商详情页</a></div>
+                            <div class="smalItem"><a href="#">开发区列表</a></div>
+                            <div class="smalItem"><a href="#">开发区招商详情页</a></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">服务大厅</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">服务商</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品新</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品单页</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">党风建设</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">社会公益</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">商会之窗</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">商会概况</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会章程</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会架构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">联系我们</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">加入商会</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员续费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">支付会费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构专页</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="publicNav">
+        <ul class="cen">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">活动</a></li>
+            <li><a href="#">展会</a></li>
+            <li><a href="#">展会在线报名</a></li>
+        </ul>
+    </div>
+    <div class="bannerBox">
+        <div class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./assets/images/exhibition/banner3.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/exhibition/banner3.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/exhibition/banner3.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="box02">
+            <div class="box02le">
+                <div class="box11">
+                    <div class="formBox">
+                        <form class="sui-form form-horizontal">
+                            <div class="control-group">
+                                <label class="control-label">输入框（迷你）：</label>
+                                <div class="controls">
+                                    <input type="text" class="input-mini">
+                                    <div class="sui-msg msg-tips msg-naked">
+                                        <div class="msg-con">提示信息，比如：建议你设置安全密码</div>
+                                        <s class="msg-icon"></s>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="box02ri">
+                <div class="box05 mart0">
+                    <div class="title">
+                        <div class="name">我的收藏</div>
+                    </div>
+                    <div class="dos">
+                        <ul class="sc">
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                            <li><a href="#">2019中国(成都)电子信息博电子信息博<span></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/select.js"></script>
+    <script>
+        var banner = new Swiper('.banner', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+        });
+    </script>
 </body>
 
 </html>

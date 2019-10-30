@@ -92,6 +92,7 @@ a:hover,
 a:active {
   color: #c0281b;
   border: none;
+  text-decoration: underline
 }
 
 /*===============================================*/

@@ -384,11 +384,11 @@
   position: relative;
 }
 .publicNav .cen li a::after {
-  content: ">";
+  content: "/";
   position: absolute;
   right: -5px;
   top: 0;
-  color: #666666;
+  color: #cccccc;
 }
 .publicNav .cen li:last-child a {
   color: #666666;

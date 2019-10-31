@@ -455,6 +455,135 @@
   margin-top: 30px;
 }
 .box11 {
-    height: 400px;
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
+.box11 .itemBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+.box11 .itemBox .item {
+  display: flex;
+}
+.box11 .itemBox .item em,
+.box11 .itemBox .item .input {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 50px;
+}
+.box11 .itemBox .item em {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+.box11 .itemBox .item .must::before {
+  color: #c0281b;
+  content: "*";
+  margin-right: 5px;
+}
+.box11 .itemBox .item .input {
+  width: 285px;
+  height: 32px;
+  border: #cfcfcf solid 1px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #666666;
+}
+.box11 .itemBox .item .disabled {
+  background-color: #e7e7e7;
+}
+.box11 .itemBox .tips {
+  position: relative;
+}
+.box11 .itemBox .tips span {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  color: #c0281b;
+  width: 285px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.box11 .itemBox .tips .input {
+  border: #c0281b solid 1px;
+}
+.box11 .uploadBox .ma {
+  display: flex;
+}
+.box11 .uploadBox .upload {
+  height: 32px;
+  line-height: 32px;
+  height: 32px;
+  border: #cfcfcf solid 1px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #666666;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.box11 .uploadBox .upload:hover {
+  border: #c0281b solid 1px;
+  color: #c0281b;
+}
+.box11 .uploadBox .name {
+  line-height: 32px;
+  height: 32px;
+  color: #666666;
+  margin-left: 10px;
+}
+.box11 .uploadBox .doc {
+  overflow: hidden;
+  margin-top: 20px;
+  width: 820px;
+}
+.box11 .uploadBox .doc li {
+  float: left;
+  display: flex;
+  height: 32px;
+  line-height: 32px;
+  background-color: #f7f2f2;
+  border: #f5e7e7 solid 1px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 380px;
+  color: #666666;
+  margin: 0 20px 10px 0;
+}
+.box11 .uploadBox .doc li i:nth-child(1) {
+  background: url(../images/exhibition/icon04.jpg) no-repeat center 5px;
+  display: block;
+  width: 40px;
+  height: 32px;
+}
+.box11 .uploadBox .doc li i:nth-child(2) {
+  color: #666666;
+  width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box11 .uploadBox .doc li i:nth-child(3) {
+  color: #c0281b;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.box11 .bottomBox {
+  width: 296px;
+  height: 40px;
+  background: rgba(192, 40, 27, 1);
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  cursor: pointer;
 }

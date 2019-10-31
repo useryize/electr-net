@@ -48,6 +48,7 @@ dfn,
 em,
 strong,
 th,
+i,
 var {
   font-style: normal;
   font-weight: normal;
@@ -86,13 +87,13 @@ input:focus {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #1f376d;
+  color: #c0281b;
 }
 a:hover,
 a:active {
-  color: #c0281b;
+  color: #c0281b !important;
   border: none;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 /*===============================================*/
@@ -118,8 +119,8 @@ a:active {
   margin-top: 20px !important;
 }
 .mart0 {
-    margin-top: 0px !important;
-  }
+  margin-top: 0px !important;
+}
 /* 自定义字体 */
 @font-face {
   font-family: "fontHzgb";

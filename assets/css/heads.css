@@ -366,6 +366,7 @@
 .fotterBox .b .dd a {
   font-size: 14px;
 }
+/* nav */
 .publicNav {
   width: 100%;
   min-width: 1200px;
@@ -395,4 +396,63 @@
 }
 .publicNav .cen li:last-child a::after {
   content: "";
+}
+/* 翻页 */
+.flipBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+.flipBox .le,
+.flipBox .ri {
+  display: flex;
+}
+.flipBox .item {
+  border: #d9d8d8 solid 1px;
+  border-radius: 4px;
+  height: 30px;
+  padding: 0 12px;
+  line-height: 30px;
+  color: #666666;
+  margin-right: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.flipBox .focu {
+  background-color: #c0281b;
+  border: #c0281b solid 1px;
+  color: #ffffff !important;
+}
+.flipBox .item:hover,
+.flipBox .button:hover {
+  border: #c0281b solid 1px;
+  color: #c0281b;
+}
+.flipBox .point {
+  padding: 0 20px;
+}
+.flipBox .point,
+.flipBox .text,
+.flipBox .point {
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+}
+.flipBox .input,
+.flipBox .button {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border: #d9d8d8 solid 1px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  color: #666666;
+  margin: 0 12px;
+  border-radius: 4px;
+}
+.flipBox .button {
+  width: 50px;
+  cursor: pointer;
+  margin-right: 0;
 }

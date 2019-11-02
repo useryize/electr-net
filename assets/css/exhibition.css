@@ -515,6 +515,9 @@
 .box11 .uploadBox .ma {
   display: flex;
 }
+.box11 .uploadBox .ma a {
+  color: #c0281b;
+}
 .box11 .uploadBox .upload {
   height: 32px;
   line-height: 32px;
@@ -585,5 +588,82 @@
   text-align: center;
   line-height: 40px;
   margin: 0 auto;
+  cursor: pointer;
+}
+.box12 .ul {
+  width: 100%;
+  margin-top: 20px;
+}
+.box12 .ul li {
+  display: flex;
+}
+.box12 .ul li:nth-child(2n + 1) {
+  background-color: #f5f5f5;
+  height: 42px;
+  line-height: 42px;
+}
+.box12 .ul li span {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box12 .ul li span:nth-child(1) {
+  width: 20%;
+}
+.box12 .ul li span:nth-child(2) {
+  width: 30%;
+}
+.box12 .ul li span:nth-child(3) {
+  width: 30%;
+}
+.box12 .ul li span:nth-child(4) {
+  width: 20%;
+}
+.box12 .ul li .number {
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+.box12 .ul li .number em {
+  display: block;
+}
+.box12 .ul li .number em:nth-child(1),
+.box12 .ul li .number em:nth-child(3) {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: #dbdbdb solid 1px;
+  background-color: #ffffff;
+  color: #adadad;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.box12 .ul li .number em:nth-child(2) {
+  height: 16px;
+  line-height: 16px;
+  padding: 0 8px;
+}
+.box12 .ul li:last-child {
+  background-color: #f5f5f5 !important;
+  padding: 0 10px;
+  color: #666666;
+}
+.box12 .btnBox {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #c0281b;
+  margin: 20px auto 0 auto;
   cursor: pointer;
 }

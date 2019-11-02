@@ -46,3 +46,19 @@ function boxNavTabLen(btn, boxlist) {
         }
     }
 }
+/**
+ * 
+ * @param {this} obj 
+ * @param {加或减 +add  -reduce} type 
+ */
+function addNumber(obj, type) {
+    let dom = obj.parentNode.children;
+    let num = dom && dom[1] && dom[1].innerText;
+    if (isNaN(num)) {
+        console.log('非number');
+        dom[1].innerText = num;
+        return;
+    }
+    type === 'reduce' && (dom[1].innerText = +num - 1);
+    type === 'add' && (dom[1].innerText = +num + 1);
+}

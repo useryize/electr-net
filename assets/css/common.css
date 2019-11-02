@@ -91,7 +91,6 @@ a:visited {
 }
 a:hover,
 a:active {
-  color: #c0281b !important;
   border: none;
   text-decoration: underline;
 }

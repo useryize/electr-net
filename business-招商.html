@@ -508,9 +508,19 @@
             </div>
         </div>
     </footer>
+    <script src="./assets/js/swiper.min.js"></script>
     <script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
     <script src="./assets/layui/layui.js"></script>
+    <script src="./assets/js/select.js"></script>
+
     <script>
+        var banner = new Swiper('.banner', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+        });
         var mycharts = echarts.init(document.getElementById('charts'))
         option = {
             dataRange: {

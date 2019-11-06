@@ -1,0 +1,215 @@
+.bannerBox {
+  width: 100%;
+  position: relative;
+  min-width: 1200px;
+}
+.bannerBox .banner {
+  height: 400px;
+}
+.bannerBox .swiper-slide {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bannerBox .swiper-pagination {
+  bottom: 20px !important;
+}
+.bannerBox .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: #ffffff solid 1px;
+  opacity: 1;
+  box-sizing: border-box;
+  background-color: transparent !important;
+}
+.bannerBox .swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+}
+
+.box01 .title {
+  height: 45px;
+  box-sizing: border-box;
+  border-bottom: #c0281b solid 2px;
+  position: relative;
+  margin-top: 30px;
+}
+.box01 .title .le {
+  line-height: 45px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  background: url(../images/activity/img01.png) no-repeat center center;
+}
+.box01 .title .ri {
+  height: 45px;
+  line-height: 45px;
+  color: #333333;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box02 {
+  overflow: hidden;
+  clear: both;
+  margin-top: 20px;
+  height: 380px;
+}
+.box02 .le {
+  float: left;
+  width: 290px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+.box02 .le img {
+  width: 290px;
+  height: auto;
+}
+.box02 .ri {
+  float: right;
+  width: 896px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box02 .ri .dosBox {
+  margin-bottom: 11px;
+  width: 290px;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+}
+.box02 .ri .dosBox img {
+  width: 290px;
+  height: auto;
+}
+.box02 .dos {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: top 0.3s ease-out;
+}
+.box02 .dos .title {
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.box02 .dos .name {
+  color: #ffffff;
+  display: block;
+  padding: 0 15px;
+  text-align: justify;
+  overflow: hidden;
+}
+.box02 .le .dos {
+  height: 380px;
+  top: 340px;
+}
+.box02 .dos:hover {
+  top: 0 !important;
+}
+.box02 .le .dos .name {
+  height: 318px;
+}
+.box02 .dosBox .dos {
+  height: 185px;
+  top: 145px;
+}
+.box02 .dosBox .dos .name {
+  height: 138px;
+}
+.box03 {
+  margin-top: 30px;
+}
+.box03 .title {
+  height: 44px;
+  background-color: #c0281b;
+  line-height: 44px;
+}
+.box03 .title span {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  border-left: #ffd600 solid 3px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+.box03Main {
+  display: flex;
+  justify-content: space-between;
+}
+.box03Main .box03le {
+  width: 872px;
+}
+.box04 {
+  display: flex;
+  background-color: #f3f3f3;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+.box03Main .box03ri {
+  width: 310px;
+}
+.box05 {
+  width: 100%;
+  height: 350px;
+}
+.box06 .title {
+  height: 44px;
+  background-color: #c0281b;
+  line-height: 44px;
+}
+.box06 .title span {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  border-left: #ffd600 solid 3px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.box06 .listBox {
+  width: 100%;
+  margin-top: 20px;
+}
+.box06 .listBox th {
+  background-color: #f3f3f3;
+  font-weight: 700;
+}
+.box06 .listBox td {
+  border-bottom: #f3f3f3 solid 1px;
+}
+.box06 .listBox th,
+.box06 .listBox td {
+  height: 44px;
+  line-height: 44px;
+  padding: 0 10px;
+}

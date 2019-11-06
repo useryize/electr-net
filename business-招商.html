@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./assets/images/home/linkIcon.ico">
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/heads.css" />
+    <link rel="stylesheet" href="./assets/css/business.css" />
+    <!-- layui库 -->
+    <link rel="stylesheet" href="./assets/layui/css/layui.css">
+    <title>business-招商</title>
+</head>
+
+<body>
+    <header class="headerBox">
+        <div class="hMain">
+            <div class="hLe">欢迎访问深圳电子信息</div>
+            <div class="hRi">
+                <a href="#">公众号</a>| <a href="#">网站导航</a>|
+                <a href="#">登录</a>|
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </header>
+    <div class="logoBox">
+        <div class="logo">
+            <img src="./assets/images/home/logo.png" alt="logo" />
+        </div>
+        <div class="searchBox">
+            <div class="search">
+                <div class="le">
+                    <div class="name">搜资讯</div>
+                    <ul class="sel">
+                        <li onclick="dropDown(this)">搜资讯</li>
+                        <li onclick="dropDown(this)">搜新闻</li>
+                        <li onclick="dropDown(this)">搜任务</li>
+                        <li onclick="dropDown(this)">搜快报</li>
+                    </ul>
+                </div>
+                <input class="int" type="text">
+                <div class="btn"></div>
+            </div>
+            <div class="searchNav">
+                <p>热搜：</p>
+                <a href="#">展会</a>| <a href="#">补贴</a>| <a href="#">智能制造</a>|
+                <a href="#">活动讲座</a>| <a href="#">集成电路</a>|
+                <a href="#">商标</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navBox">
+        <ul class="itembox">
+            <li class="item">
+                <a href="#"><span class="text">首页</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">资讯</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">资讯动态</a>
+
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">政策</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">政策</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">政策文章列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">资讯正文</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">辅导申请</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item itemFocu">
+                <a href="#"><span class="text">活动</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">展会</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">展会</a></div>
+                            <div class="smalItem"><a href="#">展会详情</a></div>
+                            <div class="smalItem"><a href="#">展会在线报名</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">培训</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">培训</a></div>
+                            <div class="smalItem"><a href="#">培训详情</a></div>
+                        </div>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">招商</a>
+                        <div class="smallBox">
+                            <div class="smalItem"><a href="#">物业列表</a></div>
+                            <div class="smalItem"><a href="#">物业招商详情页</a></div>
+                            <div class="smalItem"><a href="#">开发区列表</a></div>
+                            <div class="smalItem"><a href="#">开发区招商详情页</a></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">服务大厅</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">服务商</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品新</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">服务产品单页</a>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">党风建设</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">社会公益</span></a>
+            </li>
+            <li class="item">
+                <a href="#"><span class="text">商会之窗</span></a>
+                <div class="subBox">
+                    <div class="subItem">
+                        <a href="#">商会概况</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会章程</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">商会架构</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">联系我们</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员列表</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">加入商会</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">会员续费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">支付会费</a>
+                    </div>
+                    <div class="subItem">
+                        <a href="#">分支机构专页</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="publicNav">
+        <ul class="cen">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">活动</a></li>
+            <li><a href="#">招商</a></li>
+        </ul>
+    </div>
+    <div class="bannerBox">
+        <div class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./assets/images/business/banner.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/business/banner.jpg)"></div>
+                <div class="swiper-slide" style="background-image: url(./assets/images/business/banner.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="box01">
+            <div class="title">
+                <div class="le">招商</div>
+                <div class="ri">更多>></div>
+            </div>
+        </div>
+        <div class="box02">
+            <div class="le">
+                <img src="./assets/images/activity/img02.png" alt="">
+                <div class="dos">
+                    <p class="title">清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网</p>
+                    <p class="name">清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网</p>
+                </div>
+            </div>
+            <ul class="ri">
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+                <li class="dosBox">
+                    <img src="./assets/images/activity/img03.png" alt="">
+                    <div class="dos">
+                        <a href="#" class="title">清华讲师现身深圳电子网</a>
+                        <p class="name">
+                            清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网清华讲师现身深圳电子网
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="box03Main">
+            <div class="box03le">
+                <div class="box03">
+                    <div class="title"><span>物业</span></div>
+                </div>
+                <ul class="box04">
+                    <li><img src="./assets/images/business/pro01.jpg" alt="" srcset=""></li>
+                    <li><img src="./assets/images/business/pro01.jpg" alt="" srcset=""></li>
+                    <li><img src="./assets/images/business/pro01.jpg" alt="" srcset=""></li>
+                    <li><img src="./assets/images/business/pro01.jpg" alt="" srcset=""></li>
+                </ul>
+
+            </div>
+            <div class="box03ri">
+                <div class="box05" id="charts"></div>
+            </div>
+        </div>
+        <div class="box06">
+            <div class="box03">
+                <div class="title"><span>经济开发区招商</span></div>
+            </div>
+            <!-- <div class="form">
+                <div class="item">
+                    <div class="le">
+                        <span>开发区类型</span>
+                        <div class="sub">
+                            <input type="checkbox" name="" title="发呆" lay-skin="primary">
+                            <input type="checkbox" name="" title="禁用" lay-skin="primary">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <table class="listBox">
+                <tr>
+                    <th>开发区名称</th>
+                    <th>所属区域</th>
+                    <th>所在省份</th>
+                    <th>级别</th>
+                    <th>类型</th>
+                    <th>主导产业</th>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+                <tr>
+                    <td>新模式下的新发展</td>
+                    <td>广州</td>
+                    <td>2019-09-01</td>
+                    <td>陈教授</td>
+                    <td>300</td>
+                    <td>查看</td>
+                </tr>
+            </table>
+            <div class="flipBox">
+                <div class="le">
+                    <div class="item">上一页</div>
+                    <div class="item focu">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="point">...</div>
+                    <div class="item">377</div>
+                    <div class="item">下一页</div>
+                </div>
+                <div class="ri">
+                    <div class="text">共377页&nbsp;&nbsp;&nbsp;到第</div>
+                    <input class="input" type="text" value="77">
+                    <div class="text">页</div>
+                    <button class="button">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fotterBox">
+        <div class="main">
+            <div class="t">
+                <div class="le"><img src="./assets/images/home/bj15.png" alt="" srcset=""></div>
+                <div class="r">
+                    <a href="#">商会概括</a>
+                    <a href="#">商会架构</a>
+                    <a href="#">商会章程</a>
+                    <a href="#">商会动态</a>
+                    <a href="#">通知公告</a>
+                    <a href="#">分支机构</a>
+                    <a href="#">会员列表</a>
+                    <a href="#">加入商会</a>
+                    <a href="#">联系我们</a>
+
+                </div>
+            </div>
+            <div class="b">
+                <dl class="dl">
+                    <dt class="dt"><a href="#">在线服务</a></dt>
+                    <dd class="dd"><a href="#">辅导申请</a></dd>
+                    <dd class="dd"><a href="#">展会</a></dd>
+                    <dd class="dd"><a href="#">培训</a></dd>
+                    <dd class="dd"><a href="#">招商</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">专业委员会</a></dt>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                    <dd class="dd"><a href="#">电子市场专业委员会</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">活动</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><a href="#">出版物</a></dt>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                    <dd class="dd"><a href="#">商会走近杭州会员企业信息科技</a></dd>
+                </dl>
+                <dl class="dl">
+                    <dt class="dt"><img src="./assets/images/home/bj17.png" alt="" srcset=""></dt>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+    <script src="./assets/layui/layui.js"></script>
+    <script>
+        var mycharts = echarts.init(document.getElementById('charts'))
+        option = {
+            dataRange: {
+                show: false,
+                x: 'left',
+                y: 'bottom',
+                splitList: [
+                    { start: 5, end: 5, color: 'orange' },//当值为5时，区域背景
+                    { start: 10, end: 10, color: '#ff6300' },//当值为10时，区域背景
+                    { start: 15, end: 15, color: '#ccc' },//当值为15时，区域背景
+                ],
+            },
+            series: [
+                {
+                    name: '市场分布',
+                    type: 'map',
+                    mapType: 'china',
+                    //hoverable: false,
+                    roam: false,
+                    itemStyle: {
+                        normal: { label: { show: true } },
+                        emphasis: { label: { show: false } }
+                    },
+                    data: [],
+                }
+            ],
+            animation: false
+
+        };
+        var ini_data = [];//初始化省份数组
+        var provArr = ['河北', '河南', '云南', '辽宁', '黑龙江', '湖南', '安徽', '山东', '广东'];//获取的省份，有可能是从后台获取
+        //正则省份，将省与市的字眼去掉，框架不识别
+        for (var i = 0; i < provArr.length; i++) {
+            var str = provArr[i];
+            var re = /省|市/g;  //全局匹配
+            var str2 = { name: str.replace(re, ''), value: 5 };//拼接对象数组
+            ini_data.push(str2);
+        }
+        option.series[0].data = ini_data;//将拼接好的数组赋给参数集合
+        mycharts.setOption(option);//跟新图表
+        //鼠标滑过事件
+        var testStr = ',' + provArr.join(",") + ",";
+        mycharts.on('hover', function (param) {
+            if (testStr.indexOf("," + param.name + ",") != -1) {
+                return false;
+            } else {
+                param.value = 15;
+                mycharts.setOption(option);
+            }
+        });
+
+        //点击事件
+        mycharts.on('click', function (params) {//点击事件
+            select_province(params.name);
+        });
+        //初始化省颜色
+        function ini_province() {
+            var ini_len = option.series[0].data.length;
+            for (var i = 0; i < ini_len; i++) {
+                //初始化颜色
+                option.series[0].data[i].value = 5;
+                mycharts.setOption(option);
+            }
+
+        }
+        //选中省颜色
+        function select_province(province_name) {
+            var len = option.series[0].data.length;
+            for (var i = 0; i < len; i++) {
+                if (option.series[0].data[i].name == province_name) {//如果匹配正确
+                    //先归零
+                    ini_province();
+                    //改变颜色
+                    option.series[0].data[i].value = 10;
+                    mycharts.setOption(option);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

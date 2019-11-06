@@ -79,9 +79,9 @@ textarea {
   border: 1px solid #ccc;
   box-shadow: none;
 }
-input:focus {
+/* input:focus {
   border: none;
-}
+} */
 /*css定义超链接四个状态也有顺序的。*/
 
 a:link,

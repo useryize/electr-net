@@ -283,13 +283,21 @@
                 <div class="title"><span>经济开发区招商</span></div>
             </div>
             <!-- <div class="form">
-                <div class="item">
-                    <div class="le">
-                        <span>开发区类型</span>
-                        <div class="sub">
-                            <input type="checkbox" name="" title="发呆" lay-skin="primary">
-                            <input type="checkbox" name="" title="禁用" lay-skin="primary">
+                <div class="layui-form">
+                    <span>开发区类型</span>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">复选框</label>
+                        <div class="layui-input-block">
+                            <input type="checkbox" name="like[write]" title="写作">
+                            <input type="checkbox" name="like[read]" title="阅读">
                         </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">单选框</label>
+                    <div class="layui-input-block">
+                        <input type="radio" name="sex" value="0" title="男">
+                        <input type="radio" name="sex" value="1" title="女" checked>
                     </div>
                 </div>
             </div> -->
@@ -520,6 +528,9 @@
                 clickable: true,
             },
             loop: true,
+        });
+        layui.use('form', function () {
+            var form = layui.form;
         });
         var mycharts = echarts.init(document.getElementById('charts'))
         option = {

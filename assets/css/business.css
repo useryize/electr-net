@@ -213,3 +213,150 @@
   line-height: 44px;
   padding: 0 10px;
 }
+.box07 {
+  width: 100%;
+  margin-top: 30px;
+}
+.box07 img {
+  width: 100%;
+}
+.box08 {
+  background-color: #f3f3f3;
+  padding: 20px 40px 30px 40px;
+  margin-top: 30px;
+}
+.box08 li {
+  display: flex;
+  line-height: 40px;
+  height: 40px;
+}
+.box08 li span:nth-child(1) {
+  width: 60px;
+  text-align: right;
+  padding: 0 !important;
+  margin-right: 10px;
+}
+.box08 li span {
+  padding: 0 30px 0 0;
+}
+.box08 li .focu {
+  color: #c0281b;
+}
+.box08 .item {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+.box08 .item .text {
+  display: block;
+  color: #666666;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+}
+.box08 .item .name {
+  width: 160px;
+  background-color: #ffffff;
+  border: #d9d8d8 solid 1px;
+  height: 28px;
+  line-height: 28px;
+  color: #666666;
+  box-sizing: border-box;
+  padding: 0 15px 0 10px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box08 .item .up {
+  position: relative;
+}
+.box08 .item:hover .sub {
+  display: block;
+}
+.box08 .item .sub {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 28px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+}
+.box08 .item .sub li {
+  color: #666666;
+  line-height: 28px;
+  height: 28px;
+  padding: 0 10px 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box08 .item .sub li:hover {
+  background-color: #ffd1cd;
+  color: #c0281b;
+}
+.box08 .item .name::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 16px;
+  height: 8px;
+  background: url(../images/exhibition/icon01.png) no-repeat center center;
+  background-size: 14px auto;
+}
+.box09 .item {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: #dbdbdb solid 1px;
+}
+.box09 .item:hover {
+  background-color: #f3f3f3;
+}
+.box09 .item .img {
+  width: 300px;
+}
+.box09 .item .img img {
+  width: 300px;
+}
+.box09 .item .textBox {
+  width: 410px;
+  padding-left: 30px;
+}
+.box09 .item .textBox p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.box09 .item .textBox p:nth-child(2) {
+  font-size: 14px;
+  color: #999999;
+  padding: 20px 0 10px 0;
+}
+.box09 .item .textBox p:nth-child(2) span {
+  background: url(../images/business/icon01.jpg) left center no-repeat;
+  padding-left: 22px;
+  margin-right: 10px;
+}
+.box09 .item .textBox p:nth-child(3) {
+  font-size: 14px;
+  color: #999999;
+}
+.box09 .item .btn {
+  flex: 1;
+}
+.box09 .item .btn button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #c0281b;
+  text-align: center;
+  color: #ffffff;
+  border: #c0281b solid 1px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 50px;
+  box-shadow: #ffd600 2px 3px 0 0;
+}

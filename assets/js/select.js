@@ -5,6 +5,7 @@
  */
 function dropDown(e) {
     e.parentNode.parentNode.getElementsByClassName('name')[0].innerText = e.innerText;
+    console.error(e)
 }
 
 /**

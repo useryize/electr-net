@@ -5,9 +5,14 @@
  */
 function dropDown(e) {
     e.parentNode.parentNode.getElementsByClassName('name')[0].innerText = e.innerText;
-    console.error(e)
 }
-
+/**
+ * 多选按钮
+ * @param {* e } this 
+ */
+function multipleSelection(e) {
+    e.classList.value.indexOf('focu') > -1 ? e.classList.remove('focu') : e.classList.add('focu')
+}
 /**
  * 
  * @param {tab}} btn 

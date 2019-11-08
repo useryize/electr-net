@@ -118,6 +118,27 @@
   top: 0;
 }
 
+.box04 li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  border-bottom: #d9d8d8 solid 1px;
+  padding: 0 10px;
+}
+.box04 li a {
+  color: #333333;
+  width: 80%;
+}
+.box04 li a:hover {
+  text-decoration: none;
+  color: #c0281b;
+}
+.box04 li span {
+  color: #666666;
+  width: 20%;
+  text-align: right;
+}
+
 .box05 {
   width: 182px;
   margin-top: 20px;
@@ -148,36 +169,213 @@
   overflow: hidden;
   padding: 12px;
 }
-.box05 .dos a {
+.box05 .dos a.link {
   color: #333333;
   display: block;
   float: left;
   margin-right: 10px;
   margin-bottom: 5px;
 }
-.box05 .dos a:hover {
+.box05 .dos a.link:hover {
   color: #c0281b;
 }
 .box05 .dos .pro {
   margin-bottom: 10px;
 }
-.box04 li {
-  display: flex;
-  justify-content: space-between;
-  line-height: 50px;
-  border-bottom: #d9d8d8 solid 1px;
-  padding: 0 10px;
-}
-.box04 li a {
+
+.loadingBox {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
   color: #333333;
-  width: 80%;
+  cursor: pointer;
 }
-.box04 li a:hover {
-  text-decoration: none;
+.box05 .dos .sc li {
+  border-bottom: dotted #bababa 1px;
+}
+.box05 .dos .sc a {
+  display: block;
+  color: #2c2c2c;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 12px;
+}
+.box05 .dos .sc a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #a2a2a2;
+}
+.box05 .dos .sc a:hover {
   color: #c0281b;
 }
-.box04 li span {
+.box05 .dos .sc a:hover::after {
+  background-color: #c0281b;
+}
+.box05 .dos .sc a span {
+  display: block;
+  transition: right 0.3s ease-out;
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: 9px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffffff url(../images/exhibition/icon02.png) no-repeat center
+    center;
+}
+.box05 .dos .sc a:hover span {
+  right: 0;
+}
+
+.box05 .dos .hydt {
+  overflow: hidden;
+}
+.box05 .dos .hydt p {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.box05 .dos .hydt span {
+  display: block;
+  color: #333333;
+  margin-bottom: 5px;
+}
+.box05 .dos .hydt a {
+  color: #333333;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.box05 .dos .hydt a:hover {
+  color: #c0281b;
+}
+.box05 .imgBox {
+  color: #c0281b;
+}
+.box05 .imgBox {
+  width: 182px;
+}
+.box05 .imgBox img {
+  width: 182px;
+  height: auto;
+}
+.box06 {
+  width: 100%;
+}
+.box06 .titlebox {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+.box06 .nameBox {
+  display: flex;
+  line-height: 100%;
+  margin-top: 20px;
+}
+.box06 .nameBox span {
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.box06 .nameBox .icon01 {
+  background: url(../images/policy/icon01.png) left center no-repeat;
+}
+.box06 .nameBox .icon02 {
+  background: url(../images/policy/icon03.png) left center no-repeat;
+}
+
+.box06 .nameBox .icon03 {
+  background: url(../images/policy/icon02.png) left center no-repeat;
+}
+.box06 .nameBox .icon03_h {
+  color: #c0281b;
+  background: url(../images/policy/icon02_h.png) left center no-repeat;
+}
+.box06 .nameBox .icon04 {
+  background: url(../images/policy/icon04.png) left center no-repeat;
+}
+.box06 .text {
   color: #666666;
-  width: 20%;
-  text-align: right;
+  text-align: justify;
+  line-height: 150%;
+  padding: 20px 0;
+}
+.box07 {
+  text-align: center;
+}
+.box08 {
+  background-color: #f3f3f3;
+  border: #e8e8e8 silid 1px;
+  padding: 20px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+.box08 .lo {
+  background: url(../images/policy/pro02.jpg) no-repeat center center;
+  background-size: 100% 200px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.box08 .lo span {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #c0281b;
+  margin-top: 80px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.box08 .textarea textarea {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.box08 .textarea button {
+  width: 150px;
+  height: 40px;
+  background-color: #c0281b;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+  border: #c0281b solid 1px;
+  margin-top: 20px;
+}
+.box08 .ly  {
+    margin: 20px 0;
+    border-bottom: #dbdbdb solid 1px;
+}
+.box08 .ly li {
+    border-top: #dbdbdb solid 1px;
+    padding: 30px 20px;
+}
+.box08 .ly li p:nth-child(1) {
+  font-size: 15px;
+}
+.box08 .ly li p:nth-child(2) {
+  font-size: 14px;
+  color: #666;
+  line-height: 160%;
+  margin: 15px 0;
+}
+.box08 .ly li p:nth-child(3) {
+  font-size: 14px;
+  color: #666;
+  line-height: 160%;
+  background: url(../images/policy/icon01.png) left center no-repeat;
+  padding-left: 20px;
 }

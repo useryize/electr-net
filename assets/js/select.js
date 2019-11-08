@@ -14,6 +14,16 @@ function multipleSelection(e) {
     e.classList.value.indexOf('focu') > -1 ? e.classList.remove('focu') : e.classList.add('focu')
 }
 /**
+ * 单选按钮
+ * @param {* e } this 
+ */
+function multipleSelectionDan(e) {
+    for (var i = 0; i < e.parentNode.children.length; i++) {
+        e.parentNode.children[i].classList.remove('focu_d');
+    }
+    e.classList.add('focu_d')
+}
+/**
  * 
  * @param {tab}} btn 
  * @param {显示的块} boxlist

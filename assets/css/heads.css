@@ -460,6 +460,7 @@
 .multipleSelection {
   display: flex;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 .multipleSelection p {
   width: 120px;
@@ -474,10 +475,15 @@
 }
 .multipleSelection .default {
   display: flex;
-  line-height: 40px;
   cursor: pointer;
   margin-right: 20px;
-  align-items:center;
+  align-items: center;
+}
+.multipleSelection .default_d {
+  display: flex;
+  cursor: pointer;
+  margin-right: 20px;
+  align-items: center;
 }
 .multipleSelection .default em {
   width: 14px;
@@ -488,9 +494,33 @@
   box-sizing: border-box;
   margin-right: 5px;
 }
+.multipleSelection .default_d em {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: #979797 solid 1px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
 .multipleSelection .focu em {
   border: #c0281b solid 1px;
   background: #c0281b url(../images/business/select.png) no-repeat center center;
+}
+.multipleSelection .focu_d em {
+  border: #c0281b solid 1px;
+  box-sizing: border-box;
+  position: relative;
+}
+.multipleSelection .focu_d em::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: #c0281b;
+  border-radius: 50%;
 }
 
 .multipleSelection .select {

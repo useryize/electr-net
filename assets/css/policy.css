@@ -355,13 +355,13 @@
   border: #c0281b solid 1px;
   margin-top: 20px;
 }
-.box08 .ly  {
-    margin: 20px 0;
-    border-bottom: #dbdbdb solid 1px;
+.box08 .ly {
+  margin: 20px 0;
+  border-bottom: #dbdbdb solid 1px;
 }
 .box08 .ly li {
-    border-top: #dbdbdb solid 1px;
-    padding: 30px 20px;
+  border-top: #dbdbdb solid 1px;
+  padding: 30px 20px;
 }
 .box08 .ly li p:nth-child(1) {
   font-size: 15px;
@@ -378,4 +378,88 @@
   line-height: 160%;
   background: url(../images/policy/icon01.png) left center no-repeat;
   padding-left: 20px;
+}
+.box09 {
+  width: 1200px;
+  background: url(../images/policy/pro03.jpg) center center no-repeat;
+  height: 44px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: "fontHzgb";
+  line-height: 44px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.4);
+}
+.box10 .dl {
+  margin-top: 30px;
+}
+.box10 .dl dt {
+  border-left: #c0281b solid 5px;
+  height: 16px;
+  line-height: 16px;
+  color: #333333;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.box10 .dl dd {
+  background-color: #f3f3f3;
+  margin-top: 10px;
+  padding: 30px 0 10px 0;
+}
+.box10 .itemBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+.box10 .itemBox .item {
+  width: 50%;
+  display: flex;
+}
+.box10 .itemBox .item .leText {
+  line-height: 32px;
+  height: 32px;
+  width: 140px;
+  text-align: right;
+  color: #666666;
+  margin-right: 10px;
+}
+.box10 .itemBox .item .i {
+  line-height: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+.box10 .itemBox .item .have::before {
+  content: "*";
+  color: #c0281b;
+  margin-right: 3px;
+}
+.box10 .itemBox .item .input {
+  height: 32px;
+  width: 400px;
+  border-radius: 2px;
+  border: #cfcfcf solid 1px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 0 10px;
+}
+.box10 .itemBox .item .textarea {
+  height: 100px;
+  width: 1017px;
+  border-radius: 2px;
+  border: #cfcfcf solid 1px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 5px 10px;
+}
+.box10 .itemBox .item .form {
+  position: relative;
+}
+.box10 .itemBox .item .haveTo .em {
+  position: absolute;
+  left: 10px;
+  bottom: -19px;
+  font-size: 12px;
+  color: #c0281b;
+}
+.box10 .itemBox .item .haveTo .input {
+  border: #c0281b solid 1px;
 }

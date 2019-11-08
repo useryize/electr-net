@@ -1,0 +1,154 @@
+.box01 {
+  overflow: hidden;
+}
+.box01 .box01le {
+  width: 1052px;
+  float: left;
+}
+.box01 .box01ri {
+  float: right;
+  width: 134px;
+  height: 376px;
+}
+.box02 {
+  overflow: hidden;
+  width: 1052px;
+}
+.box02 .gallery-top {
+  float: right;
+  width: 900px;
+  height: 376px;
+}
+.box02 .gallery-top .swiper-slide {
+  width: 900px;
+  height: 376px;
+  background-size: 900px 376px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box02 .gallery-thumbs {
+  float: left;
+}
+.box02 .gallery-thumbs {
+  width: 138px;
+  height: 376px;
+}
+.box02 .gallery-thumbs .swiper-slide {
+  width: 138px;
+  height: 88px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 138px 88px;
+}
+
+.box03 {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.box03 .box03le {
+  width: 987px;
+  float: left;
+}
+.box03 .box03ri {
+  float: right;
+  width: 182px;
+}
+.box03Tab {
+  position: relative;
+  display: flex;
+  border-bottom: #c0281b solid 1px;
+}
+.box03Tab li {
+  width: 100px;
+}
+.box03Tab li a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none;
+}
+.box03Tab .focu {
+  background-color: #c0281b;
+}
+.box03Tab .focu a {
+  color: #ffffff;
+}
+.box03Tab li:hover a {
+  color: #c0281b;
+}
+.box03Tab li.focu:hover a {
+  color: #ffffff;
+}
+.box03Tab li.r_ri {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box05 {
+  width: 182px;
+  margin-top: 20px;
+}
+.box05 .title {
+  background-color: #c0281b;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+.box05 .title .name {
+  line-height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-left: #ffffff solid 2px;
+  padding-left: 10px;
+}
+
+.box05 .dos {
+  width: 182px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(219, 219, 219, 1);
+  overflow: hidden;
+  padding: 12px;
+}
+.box05 .dos a {
+  color: #333333;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.box05 .dos a:hover {
+  color: #c0281b;
+}
+.box05 .dos .pro {
+  margin-bottom: 10px;
+}
+.box04 li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  border-bottom: #d9d8d8 solid 1px;
+  padding: 0 10px;
+}
+.box04 li a {
+  color: #333333;
+  width: 80%;
+}
+.box04 li a:hover {
+  text-decoration: none;
+  color: #c0281b;
+}
+.box04 li span {
+  color: #666666;
+  width: 20%;
+  text-align: right;
+}

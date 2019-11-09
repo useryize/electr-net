@@ -1,0 +1,143 @@
+.bannerBox {
+  width: 100%;
+  position: relative;
+  min-width: 1200px;
+}
+.bannerBox .banner {
+  height: 400px;
+}
+.bannerBox .swiper-slide {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bannerBox .swiper-pagination {
+  bottom: 20px !important;
+}
+.bannerBox .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: #ffffff solid 1px;
+  opacity: 1;
+  box-sizing: border-box;
+  background-color: transparent !important;
+}
+.bannerBox .swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+}
+.box01Main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.box01Le {
+  width: 240px;
+}
+.box01Ri {
+  width: 940px;
+}
+.box02Nav {
+  width: 100%;
+  box-sizing: border-box;
+  border: #c0281b solid 2px;
+  border-bottom: #c0281b solid 10px;
+}
+.box02Nav .t {
+  width: 100%;
+  color: #ffffff;
+  background-color: #c0281b;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+.box02Nav .item {
+  width: 100%;
+  color: #333333;
+  background-color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.box02Nav .item.focu,
+.box02Nav .item:hover {
+  width: 100%;
+  color: #ffffff;
+  background-color: #eb8e8e;
+}
+.box03 {
+  color: #666666;
+  line-height: 170%;
+  text-align: justify;
+}
+.box04 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.box05 .ri {
+  width: 896px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box05 .ri .dosBox {
+  margin-bottom: 11px;
+  width: 290px;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+}
+.box05 .ri .dosBox img {
+  width: 290px;
+  height: auto;
+}
+.box05 .dos {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: top 0.3s ease-out;
+}
+.box05 .dos .title {
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.box05 .dos .name {
+  color: #ffffff;
+  display: block;
+  padding: 0 15px;
+  text-align: justify;
+  overflow: hidden;
+}
+.box05 .le .dos {
+  height: 380px;
+  top: 340px;
+}
+.box05 .dos:hover {
+  top: 0 !important;
+}
+.box05 .le .dos .name {
+  height: 318px;
+}
+.box05 .dosBox .dos {
+  height: 185px;
+  top: 145px;
+}
+.box05 .dosBox .dos .name {
+  height: 138px;
+}

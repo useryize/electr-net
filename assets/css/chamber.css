@@ -141,6 +141,9 @@
 .box05 .dosBox .dos .name {
   height: 138px;
 }
+.box06 {
+  position: relative;
+}
 .box06 h2 {
   color: #c0281b;
   font-weight: 700;
@@ -148,5 +151,51 @@
 }
 .box06 p {
   color: #666666;
+  margin-bottom: 20px;
+}
+.box06 .img {
+  position: absolute;
+  right: 0;
+  top: 180px;
+}
+.box07 {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.box08 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-top: 30px;
+}
+.box08 li {
+  width: 200px;
+  height: 264px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.box08 li img {
+  width: 200px;
+  height: 264px;
+}
+.box08 li p {
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.box09 .name {
+  line-height: 160%;
+  color: #666666;
+  text-align: justify;
   margin-bottom: 20px;
 }

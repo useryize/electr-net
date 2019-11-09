@@ -141,3 +141,12 @@
 .box05 .dosBox .dos .name {
   height: 138px;
 }
+.box06 h2 {
+  color: #c0281b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.box06 p {
+  color: #666666;
+  margin-bottom: 20px;
+}

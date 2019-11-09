@@ -390,9 +390,30 @@
   line-height: 44px;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.4);
 }
+.box10 .btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.box10 .btn button {
+  width: 120px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #c0281b;
+  border-radius: 20px;
+  height: 40px;
+  border: #c0281b solid 1px;
+  margin: 0 auto;
+}
 .box10 .dl {
   margin-top: 30px;
 }
+.box10 .dl .text {
+  color: #666666;
+  line-height: 150%;
+  text-align: justify;
+  padding: 0 20px;
+}
+
 .box10 .dl dt {
   border-left: #c0281b solid 5px;
   height: 16px;
@@ -409,6 +430,17 @@
 .box10 .itemBox {
   display: flex;
   margin-bottom: 20px;
+}
+.box10 .itemBox .multipleSelection,
+.box10 .itemBox .multipleSelection .select {
+  margin-top: 0;
+  margin-right: 5px;
+}
+.box10 .itemBox .multipleSelection .select .name {
+  height: 32px;
+}
+.box10 .itemBox .multipleSelection .select .sub {
+  top: 32px;
 }
 .box10 .itemBox .item {
   width: 50%;
@@ -440,6 +472,16 @@
   box-sizing: border-box;
   background-color: #ffffff;
   padding: 0 10px;
+}
+.box10 .itemBox .item .button {
+  height: 32px;
+  width: 120px;
+  border-radius: 2px;
+  border: #c0281b solid 1px;
+  box-sizing: border-box;
+  background-color: #c0281b;
+  border-radius: 20px;
+  color: #ffffff;
 }
 .box10 .itemBox .item .textarea {
   height: 100px;

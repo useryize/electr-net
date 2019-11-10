@@ -107,6 +107,8 @@
 
 .box04 .title,
 .box05 .title,
+.box05 .title,
+.box09 .title,
 .box06 .title {
   height: 44px;
   background-color: #c0281b;
@@ -118,6 +120,7 @@
 }
 .box04 .title span,
 .box06 .title span,
+.box09 .title span,
 .box05 .title span {
   display: inline-block;
   height: 25px;
@@ -156,6 +159,22 @@
 }
 .box06 ul li {
   margin-bottom: 20px;
+  width: 212px;
+  position: relative;
+}
+.box06 ul li::after {
+  position: absolute;
+  content: "";
+  left: 92px;
+  top: 68px;
+  width: 32px;
+  height: 32px;
+  background: url(../images/user/icon03.png) center center no-repeat;
+  background-size: 32px 32px;
+}
+.box06 ul li p {
+  color: #666666;
+  line-height: 30px;
 }
 .box07 .t {
   display: flex;
@@ -186,7 +205,7 @@
   position: relative;
 }
 .box08 li::after {
-  content: '';
+  content: "";
   position: absolute;
   background: url(../images/user/icon02.png) center center no-repeat;
   width: 105px;
@@ -197,4 +216,18 @@
 .box08 span {
   width: 50%;
   margin-bottom: 15px;
+}
+.box09 .img {
+  margin-top: 20px;
+  position: relative;
+}
+.box09 .img::after {
+  position: absolute;
+  content: "";
+  left: 407px;
+  top: 168px;
+  width: 68px;
+  height: 68px;
+  background: url(../images/user/icon03.png) center center no-repeat;
+  background-size: 68px 68px;
 }

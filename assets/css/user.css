@@ -157,3 +157,44 @@
 .box06 ul li {
   margin-bottom: 20px;
 }
+.box07 .t {
+  display: flex;
+  justify-content: space-between;
+}
+.box07 .t span {
+  height: 42px;
+  line-height: 42px;
+}
+.box07 .t {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+}
+.box07 .t span:nth-child(1) {
+  font-weight: bold;
+  background: url(../images/user/icon01.png) left center no-repeat;
+  padding-left: 42px;
+}
+.box07 .t span:nth-child(2) {
+  color: #666666;
+}
+.box08 {
+  padding: 20px 30px;
+}
+.box08 li {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.box08 li::after {
+  content: '';
+  position: absolute;
+  background: url(../images/user/icon02.png) center center no-repeat;
+  width: 105px;
+  height: 96px;
+  right: 200px;
+  bottom: 30px;
+}
+.box08 span {
+  width: 50%;
+  margin-bottom: 15px;
+}

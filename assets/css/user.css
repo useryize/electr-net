@@ -231,3 +231,101 @@
   background: url(../images/user/icon03.png) center center no-repeat;
   background-size: 68px 68px;
 }
+.box10 .ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box10 .ul li {
+  width: 24%;
+  height: 90px;
+  display: flex;
+  border: #f0f0f0 solid 1px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in;
+}
+.box10 .ul li:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.box10 .ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.box10 .ul li .img {
+  width: 50px;
+  height: 50px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.box10 .ul li .r {
+  flex: 1;
+  margin-left: 10px;
+}
+.box10 .ul li .r p {
+  font-weight: 700;
+  color: #666666;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.box10 .ul li .r span {
+  color: #666666;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.box11 {
+  background-color: #c0281b;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  height: 120px;
+  box-sizing: border-box;
+}
+.box11 .le {
+  display: flex;
+}
+.box11 .le .img {
+  width: 50px;
+  height: 50px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.box11 .le .r {
+  flex: 1;
+  margin-left: 10px;
+}
+.box11 .le .r p {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.box11 .le .r span {
+  color: #ffffff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.box11 .ri {
+  display: flex;
+  color: #ffffff;
+}
+.box11 .ri span {
+  padding-left: 26px;
+  line-height: 60px;
+  margin-left: 30px;
+}
+.box11 .ri span:nth-child(1) {
+  background: url(../images/user/icon04.png) left center no-repeat;
+}
+.box11 .ri span:nth-child(2) {
+  background: url(../images/user/icon05.png) left center no-repeat;
+}
+.box11 .ri span:nth-child(3) {
+  background: url(../images/user/icon06.png) left center no-repeat;
+}

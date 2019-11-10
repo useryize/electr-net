@@ -254,7 +254,7 @@
   margin-bottom: 20px;
 }
 .box11 li:nth-child(3n) {
-    margin-right: 0;
+  margin-right: 0;
 }
 .box11 li:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -309,4 +309,203 @@
   margin-top: 10px;
   height: 112px;
   overflow: hidden;
+}
+
+.box12 .btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.box12 .btn button {
+  width: 120px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #c0281b;
+  border-radius: 20px;
+  height: 40px;
+  border: #c0281b solid 1px;
+  margin: 0 auto;
+}
+.box12 .dl {
+  margin-top: 30px;
+}
+.box12 .dl .text {
+  color: #666666;
+  line-height: 150%;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.box12 .dl dt {
+  border-left: #c0281b solid 5px;
+  height: 16px;
+  line-height: 16px;
+  color: #333333;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.box12 .dl dd {
+  background-color: #f3f3f3;
+  margin-top: 10px;
+  padding: 30px 0 10px 0;
+}
+.box12 .itemBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+.box12 .itemBox .multipleSelection,
+.box12 .itemBox .multipleSelection .select {
+  margin-top: 0;
+  margin-right: 5px;
+}
+.box12 .itemBox .multipleSelection .select .name {
+  height: 32px;
+}
+.box12 .itemBox .multipleSelection .select .sub {
+  top: 32px;
+}
+.box12 .itemBox .item {
+  width: 50%;
+  display: flex;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.box12 .itemBox .item .leText {
+  line-height: 32px;
+  height: 32px;
+  width: 100px;
+  text-align: right;
+  color: #666666;
+  margin-right: 10px;
+}
+.box12 .itemBox .item .i {
+  line-height: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+.box12 .itemBox .item .have::before {
+  content: "*";
+  color: #c0281b;
+  margin-right: 3px;
+}
+.box12 .itemBox .item .input {
+  height: 32px;
+  width: 300px;
+  border-radius: 2px;
+  border: #cfcfcf solid 1px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 0 10px;
+}
+.box12 .itemBox .item .button {
+  height: 32px;
+  width: 120px;
+  border-radius: 2px;
+  border: #c0281b solid 1px;
+  box-sizing: border-box;
+  background-color: #c0281b;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.box12 .itemBox .item .textarea {
+  height: 100px;
+  width: 700px;
+  border-radius: 2px;
+  border: #cfcfcf solid 1px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 5px 10px;
+}
+.box12 .itemBox .item .form {
+  position: relative;
+}
+.box12 .itemBox .item .haveTo .em {
+  position: absolute;
+  left: 10px;
+  bottom: -19px;
+  font-size: 12px;
+  color: #c0281b;
+}
+.box12 .itemBox .item .haveTo .input {
+  border: #c0281b solid 1px;
+}
+.box12 .uploadBox {
+  width: 80%;
+}
+.box12 .uploadBox .ma {
+  display: flex;
+}
+.box12 .uploadBox .ma a {
+  color: #c0281b;
+}
+.box12 .uploadBox .upload {
+  height: 32px;
+  line-height: 32px;
+  height: 32px;
+  border: #cfcfcf solid 1px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #666666;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.box12 .uploadBox .upload:hover {
+  border: #c0281b solid 1px;
+  color: #c0281b;
+}
+.box12 .uploadBox .name {
+  line-height: 32px;
+  height: 32px;
+  color: #666666;
+  margin-left: 10px;
+}
+.box12 .uploadBox .doc {
+  overflow: hidden;
+  margin-top: 20px;
+  width: 820px;
+}
+.box12 .uploadBox .doc li {
+  float: left;
+  display: flex;
+  height: 32px;
+  line-height: 32px;
+  background-color: #f7f2f2;
+  border: #f5e7e7 solid 1px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 380px;
+  color: #666666;
+  margin: 0 20px 10px 0;
+}
+.box12 .uploadBox .doc li i:nth-child(1) {
+  background: url(../images/exhibition/icon04.jpg) no-repeat center 5px;
+  display: block;
+  width: 40px;
+  height: 32px;
+}
+.box12 .uploadBox .doc li i:nth-child(2) {
+  color: #666666;
+  width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box12 .uploadBox .doc li i:nth-child(3) {
+  color: #c0281b;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.box12 .btn {
+  width: 200px;
+  padding: 0 30px;
+  background-color: #c0281b;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px auto;
 }

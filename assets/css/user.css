@@ -106,16 +106,18 @@
 }
 
 .box04 .title,
-.box05 .title {
+.box05 .title,
+.box06 .title {
   height: 44px;
   background-color: #c0281b;
   line-height: 44px;
 }
 .box05 .title {
-    margin-top: 30px;
-    margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .box04 .title span,
+.box06 .title span,
 .box05 .title span {
   display: inline-block;
   height: 25px;
@@ -145,4 +147,13 @@
 }
 .box05 .swiper-slide img {
   width: 100%;
+}
+.box06 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box06 ul li {
+  margin-bottom: 20px;
 }
